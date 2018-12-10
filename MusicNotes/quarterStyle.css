@@ -5,23 +5,23 @@
   padding: 0;
 }
 
-h1 {
-	color: blue;
+
+#note {
+  position: absolute;
+  z-index: 9;  
+  text-align: center;
 }
 
 p {
-	color: red;
-	font-size: 10rem;
-	position: absolute;
-	top: 2%;
-	left: 6%;
+  color: red;
+  font-size: 10rem;
 }
 
 /*#note {
 	position: absolute;
 }*/
 
-.card {
+/*.card {
 	width: 10rem;
     height: 12rem;
     border: .3rem groove gray;
@@ -35,4 +35,4 @@ p {
     border: .3rem solid green;
     position: relative;
     z-index: -1;
-}
+}*/
