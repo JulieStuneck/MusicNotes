@@ -1,9 +1,11 @@
 // Draggable Note:
-dragElement(document.getElementById("note"));
+
+//Make the DIV element draggagle:
+dragElement(document.querySelector(".note"));
 
 function dragElement(elmnt) {
- let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
- elmnt.onmousedown = dragMouseDown;
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;  
+  elmnt.onmousedown = dragMouseDown; 
 
   function dragMouseDown(e) {
     e = e || window.event;
@@ -30,7 +32,7 @@ function dragElement(elmnt) {
   }
 
   function closeDragElement() {
-    // stop moving when mouse button is released:
+    /* stop moving when mouse button is released:*/
     document.onmouseup = null;
     document.onmousemove = null;
   }
@@ -38,22 +40,9 @@ function dragElement(elmnt) {
 
 
 
+//reference: W3Schools/altered in my codepen
 
 
-
-/*function allowDrop(ev) {
-    ev.preventDefault();
-}
-
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}*/
 
 //for remembering - change to note unicode
 	/*const COLOR_RED = "#F00";
@@ -64,6 +53,9 @@ function drop(ev) {
 	// ...when we need to pick a color
 	let color = COLOR_ORANGE;
 	alert(color); // #FF7F00*/
+
+
+
 
 //Classes
 /*class Note {

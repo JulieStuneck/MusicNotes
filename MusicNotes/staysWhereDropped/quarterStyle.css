@@ -6,7 +6,7 @@
 }
 
 
-#note {
+.note {
   position: absolute;
   z-index: 9;  
   text-align: center;
@@ -15,6 +15,8 @@
 p {
   color: red;
   font-size: 10rem;
+  cursor: move;
+  width: 50px;
 }
 
 /*#note {
@@ -27,12 +29,17 @@ p {
     border: .3rem groove gray;
     position: relative;
     z-index: -1;
-}
+}*/
 
-#dropBox {
+/*#dropBox {
 	width: 12rem;
-    height: 14rem;
-    border: .3rem solid green;
-    position: relative;
-    z-index: -1;
+  height: 14rem;
+  border: .3rem solid green;
+  position: relative;
+  z-index: -1;
+}*/
+
+
+/*#note {
+  position: absolute;
 }*/
