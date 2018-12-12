@@ -5,11 +5,22 @@
   padding: 0;
 }
 
-#div1, #div2 {
-  float: left;
+.beat-container, .note-supply {
+	display: flex;
+}
+
+
+#beat1, #beat2, #beat3, #beat4 {	
   width: 100px;
-  height: 35px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
+  height: 100px; 
+  border-bottom-style: solid;
+  margin:0px 5px 0px 5px;
+}
+
+
+p {
+  color: red;
+  font-size: 5rem;
+  cursor: move;
+  width: 50px;
 }
