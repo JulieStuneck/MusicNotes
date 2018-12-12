@@ -1,0 +1,45 @@
+*{
+  Line-height: 1.618em;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.note {
+  position: absolute;
+  z-index: 9;  
+  text-align: center;
+}
+
+p {
+  color: red;
+  font-size: 10rem;
+  cursor: move;
+  width: 50px;
+}
+
+/*#note {
+	position: absolute;
+}*/
+
+/*.card {
+	width: 10rem;
+    height: 12rem;
+    border: .3rem groove gray;
+    position: relative;
+    z-index: -1;
+}*/
+
+/*#dropBox {
+	width: 12rem;
+  height: 14rem;
+  border: .3rem solid green;
+  position: relative;
+  z-index: -1;
+}*/
+
+
+/*#note {
+  position: absolute;
+}*/

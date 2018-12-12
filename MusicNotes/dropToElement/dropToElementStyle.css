@@ -1,0 +1,15 @@
+*{
+  Line-height: 1.618em;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#div1, #div2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
