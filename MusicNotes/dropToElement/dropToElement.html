@@ -1,4 +1,3 @@
-<!-- https://www.w3schools.com/hTml/html5_draganddrop.asp -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,25 +5,30 @@
 	<link rel="stylesheet" type="text/css" href="dropToElementStyle.css">
 </head>
 <body>
-	<h2>Drag and Drop</h2>
-	<p>Drag the image back and forth between the two div elements.</p>
-
-	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">	  
-	</div>
-
-	<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-
+	<div class = "beat-container">
+		<div id="beat1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="beat2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="beat3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="beat4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	</div> <!-- beat-container -->
 	
-	<div draggable="true" ondragstart="drag(event)" id="drag1">
-		<p>&#9833</p>	
+	<div class = "note-supply">
+		<div draggable="true" ondragstart="drag(event)" id="drag1">
+			<p>&#9833</p>	
+		</div>
+		<div draggable="true" ondragstart="drag(event)" id="drag2">
+			<p>&#9835</p>	
+		</div>
 	</div>
 	
-	<img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
-
-
-
-
 
 	<script type="text/javascript" src="dropToElementScript.js"></script>
 </body>
 </html>
+
+
+
+<!-- reference -->
+<!-- https://www.w3schools.com/hTml/html5_draganddrop.asp -->
+<!-- https://www.w3schools.com/hTml/tryit.asp?filename=tryhtml5_draganddrop2 -->
+<!-- https://en.wiktionary.org/wiki/Appendix:Unicode/Musical_Symbols -->
